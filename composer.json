@@ -1,5 +1,6 @@
 {
     "name": "kim-1ne/production-calendar",
+    "description": "PHP library for working with Russian production calendar",
     "autoload": {
         "psr-4": {
             "Kim1ne\\ProductionCalendar\\": "src/"
@@ -25,5 +26,7 @@
     },
     "scripts": {
         "test": "vendor/bin/phpunit"
-    }
+    },
+    "type": "library",
+    "license": "MIT"
 }
