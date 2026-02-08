@@ -200,7 +200,7 @@ class Calendar
         }
 
         $collection = new MonthCollection();
-        $productionYear = new Year($this->year, $collection, [new Period($from, $to)]);
+        $productionYear = new Year($this->year, $collection, [new Period($calcFrom, $calcTo)]);
 
         $current = clone $calcFrom;
 
